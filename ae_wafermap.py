@@ -1,5 +1,3 @@
-# (C) 2019 Griffin Bishop - http://griffinbishop.com #
-# Video in action: https://gfycat.com/inconsequentialesteemeddartfrog
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -111,7 +109,6 @@ def onpick(event):
         ax[2].imshow(o_img, cmap='gray')
     plt.draw()
 
-# button_press_event
 fig.canvas.mpl_connect('pick_event', onpick)
 
 plt.show() 
