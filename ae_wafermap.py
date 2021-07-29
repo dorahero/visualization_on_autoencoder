@@ -54,7 +54,7 @@ x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.01, random
 
 
 ###########
-if "model.h5" not in os.listdir():
+if "model.h5" in os.listdir():
     ae = load_model('model.h5')
     encoder = load_model('encoder.h5')
     decoder = load_model('decoder.h5')
